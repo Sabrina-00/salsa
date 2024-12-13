@@ -1,0 +1,109 @@
+/* Styling dasar */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3e8f8; /* Latar belakang lilac kalem */
+    color: #4a4a4a; /* Warna teks abu gelap */
+}
+
+header {
+    background: linear-gradient(45deg, #b298dc, #e0b5e6); /* Gradasi lilac ke pink pastel */
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px dashed #e0b5e6; /* Garis bawah putus-putus pink */
+}
+
+.header-content {
+    position: relative;
+}
+
+.header-content img.foto-profil {
+    width: 120px; /* Ukuran sedang */
+    height: 120px; /* Proporsi sedang */
+    border-radius: 50%; /* Membuatnya bulat */
+    border: 4px solid #ffffff; /* Bingkai putih */
+    margin: 1rem auto; /* Jarak atas dan bawah */
+    display: block; /* Terpusat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+/* Styling menu navigasi */
+nav {
+    margin-top: 1rem;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: #6c757d; /* Warna hover abu lembut */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling konten utama */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 2rem auto;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px dashed #e0b5e6; /* Bingkai putus-putus pink lembut */
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #b298dc; /* Warna judul lilac */
+    border-bottom: 2px dashed #e0b5e6; /* Garis bawah putus-putus pink */
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
+    color: #6c757d; /* Teks abu lembut */
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Styling footer */
+footer {
+    background: #e0b5e6; /* Lilac pastel */
+    color: #4a4a4a; /* Abu gelap */
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    border-top: 3px dashed #b298dc; /* Garis atas putus-putus lilac */
+}
